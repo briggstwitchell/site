@@ -2,115 +2,95 @@
 
 <html lang="en">
   <head>
-    <title>My first webpage</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Briggs Twitchell's webpage">
-
-    <title>Document</title>
-
-    <!-- Setting the style of the image -->
-    <style>
-      .selfPortrait {
-        width: 200px;
-        height: 100;
-        border-radius: 100px;
-
-        position: relative;
-        overflow: hidden;
-        object-fit: cover;
-      }
-
-      .icons1 {
-        width: 50px;
-        height: 100;
-
-        position: relative;
-        overflow: hidden;
-      }
-
-      .icons2 {
-        width: 70px;
-        height: 100;
-
-        position: relative;
-        overflow: hidden;
-      }
-
-
-      h1{
-        color: black;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-      }
-
-      h2{
-        color: black;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-      }
-
-      .myName {
-        position: relative;
-        /*top: 20px;
-        left: 10px;*/
-        color: darkred;
-      }
-
-      p {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-left: 1cm;
-      }
-    </style>
+    <title>Briggs Twitchell - Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Briggs Twitchell's webpage" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body style="background-color:#a7c0e8;"></body>
-    
+  <body>
+    <div class="pageContainer">
       <!--Top-->
-      <h1>Welcome to my website</h1>
-      <img
-        src="images/briggs_portrait.jpg"
-        class="selfPortrait"
-        alt="An image of Briggs Twitchell"
-      />
-      <p class="myName">Briggs Twitchell</p>
+      <div class="Top1">
+        <h1 id="Welcome">Welcome to my personal website</h1>
 
-      <h2>Menu</h2>
+        <img
+          src="images/briggs_portrait.jpg"
+          id="selfPortrait"
+          alt="A portrait of Briggs Twitchell"
+        />
+        <p id="bio">
+          Hi! My name is <b>Briggs Twitchell</b>. I'm a masters student at
+          Northeastern University studying computer science, focusing in data
+          science and machine learning. Before learning about computers, I
+          worked as an accountant, earning my CPA license in September of 2022.
+          <br /><br />
+          I love to create and record music in my free time. I mostly play
+          guitar but am familiar with many other instruments, including bass,
+          keyboard, drums, banjo, and violin. Writing chord progressions and
+          lyrics are my favorite parts of making music. Lately, I mostly listen
+          to and play alternative and country music. Some of my favorite artists
+          include
+          <a href="https://youtu.be/weL8HTY1NJU">Pinegrove</a>,
+          <a href="https://youtu.be/EdeZXNhZnRM">Lomelda</a>, and
+          <a href="https://youtu.be/k2QjEgOtCAA">Watchhouse</a>. <br />
+          <br />Please use the links below to learn more about me and my
+          interests:
+        </p>
+      </div>
 
-        <!--Github-->
-        <a href="https://github.com/briggstwitchell/resume">
-          <img src="images/github_icon.png"
-          alt="Click for redirect to Github repo"
-          class="icons1">
-          <p>Link to Github</p>
-        </a>
+      <h2>
+        <div class="contents">
+          <!--Music-->
+          <a href="music.html" id="contentLinks">
+            <div id="iconDiv">
+              <img
+                src="images/music_note.png"
+                alt="Music note icon"
+                class="icons1"
+              />Music
+            </div>
+          </a>
 
-        <!--Resume-->
-        <a href="files/twitchell_resume_11_4_22.pdf" download>
-          <img src="images/pdf_icon.png"
-          alt="Click to download Briggs' resume"
-          class="icons1">
-          <p>Resume</p>
-        </a>
+          <!--Projects-->
+          <a href="https://github.com/briggstwitchell/resume" id="contentLinks">
+            <div id="iconDiv">
+              <img
+                src="images/github_icon.png"
+                alt="Click for redirect to Github repo"
+                class="icons1"
+              />Projects
+            </div>
+          </a>
 
-        <!--Music-->
-        <a href="music.html">
-          <img src="images/music_note.png"
-            alt="Music note icon"
-            class="icons1"
-            >
-            <p>Music</p>
-        </a>
+          <!--Resume-->
+          <a
+            href="files/twitchell_resume_11_4_22.pdf"
+            download
+            id="contentLinks"
+          >
+            <div id="iconDiv">
+              <img
+                src="images/pdf_icon.png"
+                alt="Click to download Briggs' resume"
+                class="icons1"
+              />Resume
+            </div></a
+          >
 
-        <!--email-->
-        <a href="mailto:btwitchell31@gmail.com">
-          <img src="images/email_icon.png"
-          alt="Click here to email Briggs Twitchell"
-          class="icons2">
-          <p>Email me</p>
-        </a>
-
-    <div>
+          <!--Email-->
+          <a href="mailto:btwitchell31@gmail.com" id="contentLinks">
+            <div id="iconDiv">
+              <img
+                src="images/email_icon1.png"
+                alt="Click here to email Briggs Twitchell"
+                class="icons1"
+              />Email me
+            </div></a
+          >
+        </div>
+      </h2>
     </div>
   </body>
-
 </html>
