@@ -1,32 +1,6 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="musicStyle.css">
 <html lang="en">
-  <style>
-
-
-    a {
-      font-family: Georgia, "Times New Roman", Times, serif;
-      margin-left: 1cm;
-      font-size: 26px;
-    }
-
-    .homeLink{
-      font-size: 12px;
-    }
-
-    h2{
-      font-size: 25px;
-    }
-
-    .guitarPicture {
-        width: 200px;
-        height: 100;
-        border-radius: 100px;
-
-        position: relative;
-        overflow: hidden;
-      }
-
-  </style>
   <head>
     <title>Briggs Twitchell - Music</title>
     <meta charset="UTF-8" />
@@ -36,27 +10,44 @@
   </head>
   <body>
 
+    <nav>
     <a 
-    href="https://briggstwitchell.github.io/site/index.html">Home</a
+    href="https://briggstwitchell.github.io/site/index.html">
+    <img src="images/home_icon.png" alt="Home icon" id="homeIcon"></a
     class = "homeLink"
     >
+  </nav>
+
     <h1>Music</h1>
 
-    <img src="images/briggs_guitar.jpg"
-    alt="Briggs Twitchell performing on guitar"
-    class="guitarPicture">
-
     <!--Originals-->
-    <h2 id="Originals-section">Originals</h2>
-    <a href="https://youtube.com/playlist?list=PLgD44Kx_YG7bMQeGwRBvIQW1NW1-iHDwE" target="_blank">
-      <p class="youtubeLink">Click for link to Youtube</p>
-    </a>
+    <div id="originalsDiv">
+    <h2>
+    <a href="https://youtube.com/playlist?list=PLgD44Kx_YG7bMQeGwRBvIQW1NW1-iHDwE" target="_blank" class="youtubeLink">Originals
+    </a></h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LoOE_s2RXB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+    class="embeddedVideo"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jpEv343Nejs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+    class="embeddedVideo"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nTfQ4OF7dsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+    class="embeddedVideo"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j4NyBcK1f_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+    class="embeddedVideo"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ym8xTtwpWdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+    class="embeddedVideo"></iframe>
+
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/f5-X5Sy2sqc"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
+        allowfullscreen
+        class="embeddedVideo">
+        
     </iframe>
 
     <iframe width="560" height="315"
@@ -64,25 +55,32 @@
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
+    allowfullscreen class="embeddedVideo">
   </iframe>
+</div>
 
   <!--Covers-->
-  <h2 id="Covers-section">Covers</h2>
-  <a href="https://youtube.com/playlist?list=PLgD44Kx_YG7ZCefTqJLH0lvRKulc_Ie4I" target="_blank">
-    <p class="youtubLink">Click for link to Youtube</p>
-  </a>
-    
+  <div id="coversDiv">
+  <h2>
+    <a href="https://youtube.com/playlist?list=PLgD44Kx_YG7ZCefTqJLH0lvRKulc_Ie4I" target="_blank" class="youtubeLink">Covers
+  </a></h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/egeh1d4kndI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+  class="embeddedVideo">
+  </iframe>
+
     <iframe 
-      class="victoryBellsFrame"
       width="560" height="315"
       src="https://www.youtube.com/embed/js3uWLXvia0"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
+      allowfullscreen
+      class="embeddedVideo">
     </iframe>
-
-
+  </div>
+  
+  <footer>
+    <p>Copyright © 2023 Briggs A Twitchell. All rights reserved.</p>
+  </footer>
   </body>
 </html>

@@ -1,0 +1,93 @@
+body {
+  background-color: #1b2738;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-left: 1cm;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+#homeIcon {
+  filter: invert() sepia(100%);
+}
+
+#homeIcon:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #7b362af3;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 2.5em;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-top: 10px;
+  top: 10px;
+  border-radius: 1em;
+  align-items: center;
+  color: #1b2738;
+  position: relative;
+}
+
+.youtubeLink {
+  color: #1b2738;
+  text-decoration: underline;
+  margin-left: 0px;
+}
+
+.youtubeLink:hover {
+  color: black;
+  text-shadow: 0px 0px 2px #7b362af3;
+  transition: 0.5s;
+}
+
+.guitarPicture {
+  width: 200px;
+  height: 100;
+  border-radius: 100px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+#originalsDiv,
+#coversDiv {
+  background-color: #7b362af3;
+  border-radius: 1em;
+  margin: 20px;
+}
+
+.embeddedVideo {
+  margin: 5px;
+  margin-left: 10px;
+  border-radius: 1em;
+}
+
+.embeddedVideo:hover {
+  transform: scale(1.005);
+}
+
+footer {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 0px auto;
+  border-top: #7b362af3 solid 1px;
+  border-bottom: #7b362af3 solid 1px;
+  color: #7b362af3;
+  align-items: center;
+}
