@@ -7,90 +7,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Briggs Twitchell's webpage" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="pageContainer">
+      <nav>
+        <!--Music--><a href="music.html" id="contentLinks">
+          <div id="iconDiv">
+            <img
+              src="images/music_note.png"
+              alt="Music note icon"
+              class="icons1"
+            />Music
+          </div></a
+        >
+
+        <!--Projects--><a
+          href="https://github.com/briggstwitchell/resume"
+          id="contentLinks"
+          target="_blank"
+        >
+          <div id="iconDiv">
+            <img
+              src="images/github_icon.png"
+              alt="Click for redirect to Github repo"
+              class="icons1"
+            />Projects
+          </div></a
+        >
+
+        <!--Resume-->
+        <a href="files/twitchell_resume_11_4_22.pdf" download id="contentLinks">
+          <div id="iconDiv">
+            <img
+              src="images/pdf_icon.png"
+              alt="Click to download Briggs' resume"
+              class="icons1"
+            />Resume
+          </div></a
+        >
+
+        <!--Email-->
+        <a href="mailto:btwitchell31@gmail.com" id="contentLinks">
+          <div id="iconDiv">
+            <img
+              src="images/email_icon1.png"
+              alt="Click here to email Briggs Twitchell"
+              class="icons1"
+            />Email me
+          </div></a
+        >
+      </nav>
+
       <!--Top-->
       <div class="Top1">
-        <h1 id="Welcome">Welcome to my personal website</h1>
+        <h1 id="Welcome">Welcome to my personal site</h1>
 
-        <img
-          src="images/briggs_portrait.jpg"
-          id="selfPortrait"
-          alt="A portrait of Briggs Twitchell"
-        />
-        <p id="bio">
-          Hi! My name is <b>Briggs Twitchell</b>. I'm a masters student at
-          Northeastern University studying computer science, focusing in data
-          science and machine learning. Before learning about computers, I
-          worked as an accountant, earning my CPA license in September of 2022.
-          <br /><br />
-          I love to create and record music in my free time. I mostly play
-          guitar but am familiar with many other instruments, including bass,
-          keyboard, drums, banjo, and violin. Writing chord progressions and
-          lyrics are my favorite parts of making music. Lately, I mostly listen
-          to and play alternative and country music. Some of my favorite artists
-          include
-          <a href="https://youtu.be/weL8HTY1NJU">Pinegrove</a>,
-          <a href="https://youtu.be/EdeZXNhZnRM">Lomelda</a>, and
-          <a href="https://youtu.be/k2QjEgOtCAA">Watchhouse</a>. <br />
-          <br />Please use the links below to learn more about me and my
-          interests:
-        </p>
+        <section id="bio">
+          <p id="p1">
+            Hi! My name is <b>Briggs Twitchell</b>. I'm a student at
+            Northeastern University pursuing a masters in computer science. My
+            areas of study include software development and data science.
+
+            <br /><br />
+            Before studying CS, I worked as a CPA at a regional firm in New
+            England. My background in accounting has given me the tools to
+            perform financial analysis, and I'd like to leverage this to
+            understand how machine learning can be applied to solve business
+            problems.
+            <br /><br />
+            I have many interests, ranging from music to moral philosophy to
+            statistical analysis. I love to spend my time reading non-fiction,
+            meditating, enjoying the outdoors, and practicing
+            <a href="https://www.effectivealtruism.org/" target="_blank"
+              >Effective Altruism</a
+            >.
+          </p>
+          <p id="p2">
+            I also love to create and record music. It has a special place in my
+            heart. I mostly play guitar but am familiar with many other
+            instruments, including bass, keyboard, drums, banjo, and violin.
+            Lately, I mostly listen to and play alternative and country music.
+            Some of my favorite artists include
+            <a
+              class="musiclink"
+              href="https://youtu.be/weL8HTY1NJU"
+              target="_blank"
+              >Pinegrove</a
+            >,
+            <a
+              class="musiclink"
+              href="https://youtu.be/EdeZXNhZnRM"
+              target="_blank"
+              >Lomelda</a
+            >, and
+            <a
+              class="musiclink"
+              href="https://youtu.be/k2QjEgOtCAA"
+              target="_blank"
+              >Watchhouse</a
+            >. Check out the navigation above for links to my music and other
+            resources related to my work, both personal and professional.
+          </p>
+        </section>
+        <section id="pic">
+          <img
+            src="images/briggs_portrait1.jpg"
+            alt="A portrait of Briggs Twitchell"
+            id="selfPortrait"
+          />
+        </section>
       </div>
-
-      <h2>
-        <div class="contents">
-          <!--Music-->
-          <a href="music.html" id="contentLinks">
-            <div id="iconDiv">
-              <img
-                src="images/music_note.png"
-                alt="Music note icon"
-                class="icons1"
-              />Music
-            </div>
-          </a>
-
-          <!--Projects-->
-          <a href="https://github.com/briggstwitchell/resume" id="contentLinks">
-            <div id="iconDiv">
-              <img
-                src="images/github_icon.png"
-                alt="Click for redirect to Github repo"
-                class="icons1"
-              />Projects
-            </div>
-          </a>
-
-          <!--Resume-->
-          <a
-            href="files/twitchell_resume_11_4_22.pdf"
-            download
-            id="contentLinks"
-          >
-            <div id="iconDiv">
-              <img
-                src="images/pdf_icon.png"
-                alt="Click to download Briggs' resume"
-                class="icons1"
-              />Resume
-            </div></a
-          >
-
-          <!--Email-->
-          <a href="mailto:btwitchell31@gmail.com" id="contentLinks">
-            <div id="iconDiv">
-              <img
-                src="images/email_icon1.png"
-                alt="Click here to email Briggs Twitchell"
-                class="icons1"
-              />Email me
-            </div></a
-          >
-        </div>
-      </h2>
+      <footer>
+        <p>Copyright © 2023 Briggs A Twitchell. All rights reserved.</p>
+      </footer>
     </div>
   </body>
 </html>

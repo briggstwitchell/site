@@ -1,94 +1,132 @@
 body {
-  background-color: #000000;
+  background-color: #1b2738;
   justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: block;
+  text-transform: uppercase;
+  background-color: #e3e5e8;
+  border-radius: 1.5em;
+  width: 85%;
+  margin: 10px auto;
+  margin-bottom: 4px;
+  padding: 10px 50px;
+
+  align-items: center;
+  justify-content: center;
+}
+a {
+  width: 25%;
+  display: inline;
+  margin: 10px 0.8em;
+  align-items: center;
+}
+
+#iconDiv {
+  background-color: #1b2738;
+  color: #f4eaea;
+  width: 20%;
+  height: 70px;
+  padding: 10px;
+  display: inline-block;
+
+  border-radius: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#iconDiv:hover {
+  background-color: #7b362af3;
+  transform: scale(1.01);
+  transition: 0.25s;
+}
+
+.Top1 {
+  display: block;
+  border-radius: 15px;
+  padding-bottom: 25px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  background-color: #f4eaea;
+  margin: 10px auto;
+  width: 85%;
+}
+
+#Welcome{
+  font-weight: 600;
+}
+
+h1 {
+  display: inline-block;
+  color: #1b2738;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: Lighter;
+  border-bottom: #1b2738 solid 1px;
+  width: 80%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  color: #1b2738;
 }
 
 .pageContainer {
   border-radius: 15px;
+  width: 80%;
   display: inline-block;
-  padding: 15px;
-  background-color: #474a4d;
-  margin-left: 15%;
-}
-
-.Top1 {
-  border-radius: 15px;
-  float: left;
-  padding-top: 15px;
-  padding-bottom: 25px;
-
-  padding-left: 50px;
-  padding-right: 50px;
-
-  background-color: #e3e5e8;
-  margin: 15px;
-  width: 900px;
-}
-
-.contents {
-  border-radius: 50px;
-  width: 900px;
-  background-color: #e3e5e8;
-  margin: 15px;
-
-  padding-top: 15px;
-  padding-bottom: 25px;
-
-  padding-left: 50px;
-  padding-right: 50px;
-
-  float: left;
-  clear: left;
-}
-
-#iconDiv {
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  background-color: #474a4d;
-  width: 20%;
-  height: 70px;
-  padding: 10px;
-  float: left;
-  border-radius: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-decoration: none;
+  padding: 3px;
+  background-color: #7b362af3;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 #contentLinks {
   text-decoration: none;
-  color: black;
+  color: #1b2738;
   font-size: 22px;
 }
 
-.selfPortrait {
-  border-radius: 200px;
-
-  display: block;
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-  position: 100%;
-}
-
-#Welcome {
-}
-
 #bio {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  width: 50%;
+}
+#pic {
+  margin: 0px 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
 }
 
 #selfPortrait {
-  width: 200px;
-  height: 100;
-  border-radius: 50px;
-  display: block;
-  margin: auto;
-
-  position: relative;
-  overflow: hidden;
+  top: 10px;
+  width: 360px;
+  border-radius: 5em;
+  display: inline-block;
   object-fit: cover;
+}
+#p1 {
+  /* width: 50%; */
+  margin-right: 50px;
+  display: inline-block;
+  border-left: rgba(128, 128, 128, 0.406) 1px solid;
+  padding-left: 20px;
+}
+#p2 {
+  display: block;
+  margin-left: 50px;
+  border-left: rgba(128, 128, 128, 0.406) 1px solid;
+  padding-left: 20px;
 }
 
 .icons1 {
@@ -97,15 +135,10 @@ body {
   margin-right: 10px;
   width: 50px;
   height: 100;
-
+  color: aliceblue;
+  filter: invert() sepia(80%) hue-rotate(180deg) saturate(4);
   position: relative;
   overflow: hidden;
-}
-
-h1 {
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 50px;
 }
 
 h2 {
@@ -113,7 +146,19 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
+a {
+  color: #1b2738;
+  white-space:nowrap;
+  margin:0px;
+  text-decoration-thickness: 1px;
+}
+
+footer {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 0px auto;
+  border-top: #1b27386b solid 1px;
+  border-bottom: #1b27386b solid 1px;
+  align-items: center;
 }
